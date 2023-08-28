@@ -18,7 +18,7 @@ export const primerComponente = () => {
     setNombre(nuevoNombre);
 }
   return (
-    <div>
+    <div> 
       <h1> Esta es una prueba de mi primer componente </h1>
       <p>Este es un ejemplo de un componente</p>
       <p>Mi nombre es:<strong className={nombre.length >= 4 'verde' : 'rojo'}>{nombre}</strong> </p>
