@@ -4,6 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+.rojo{
+  background-color: red;
+}
+
+.verde{
+  background-color: green;
+}
 
 .logo {
   height: 6em;
