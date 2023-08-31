@@ -1,9 +1,10 @@
-const nombre = 'Nelly';
-let num = 1
+import HomePage from "./home_page/home_page";
+import { useState } from "react";
+
 
 function App() {
 
-  const sumar = ()=>{
+  const  = ()=>{
     num+=1
     console.log(num);
   }
