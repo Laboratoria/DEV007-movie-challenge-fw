@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #706767;
+  color: white;
+}
+
+.nav_logo {
+  width: 10rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+
+button {
+  background-color: #200f4e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6e0505;
+}
