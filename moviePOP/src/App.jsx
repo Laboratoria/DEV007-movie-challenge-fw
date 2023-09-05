@@ -1,20 +1,18 @@
-import HomePage from "./home_page/home_page";
-import { useState } from "react";
+import './App.css'
+import Card from './Components/Card';
 
 
 function App() {
-
-  const  = ()=>{
-    num+=1
-    console.log(num);
-  }
-  return (
-      <div className="App">
-        <h1> HOLAAAAAA {nombre} !</h1>
-        <button onClick={sumar}> +1 </button>
-        <p>{num}</p>
-        </div>
-  )
+  return ( 
+  <div className="App">
+    <h1>MOVIE POP</h1>
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+  </div>
+  );
 }
 
-export default App
+export default App;
