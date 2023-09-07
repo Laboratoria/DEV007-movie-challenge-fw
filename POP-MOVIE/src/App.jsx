@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css';
+import HomePage from './home_page/HomePage';
 
 
 function App() {
@@ -11,8 +12,10 @@ setTimeout(() => {
 
   if (logoPop) {
     return (
-      <LogoPage />
+      <HomePage />
       );
   }
   }
-export default App
+  export default App
+
+
