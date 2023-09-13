@@ -33,6 +33,8 @@ function HomePage() {
             movies.map (movie => (
                 <div key= {movie.id}> {movie.name}
                     <img src= {`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt= {movie.original_title}/>
+                    <p>{movie.original_title}</p>
+                    <p>{movie.vote_average}</p>
                     
                 </div>
                 ))

@@ -8,10 +8,10 @@ return (
 
     <div className={styles.prueba}>
         <div className="cuadroR">
-        <img src={cuadroR} />
+        <img src={cuadroR} alt= "fondoRojo"/>
         </div>
         <div className="imgPop">
-        <img src={logoPop} />
+        <img src={logoPop} alt="logoPOP"/>
         </div>
     </div>
     );
