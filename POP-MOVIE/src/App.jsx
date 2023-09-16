@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import LogoPage from "./logo_page/LogoPage";
 import HomePage from "./home_page/HomePage";
+import { AppRouter } from "./router/AppRouter";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     return <LogoPage />;
   }
   return <HomePage />;
+
 }
 
 export default App;

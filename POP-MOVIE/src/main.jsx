@@ -2,12 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { createRoot } from "react-router-dom/client";
-import { createBrowserRouter, RouterProvider, Route, link, BrowserRouter } from "react-router-dom";
 
-const router = createBrowserRouter ([
+import { createBrowserRouter, RouterProvider, Route, BrowserRouter } from "react-router-dom";
+import { AppRouter } from './router/AppRouter.jsx';
 
+const Router = createBrowserRouter ([
 
+<AppRouter/>
 ])
 
 
