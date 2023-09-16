@@ -6,13 +6,7 @@ import { createRoot } from "react-router-dom/client";
 import { createBrowserRouter, RouterProvider, Route, link } from "react-router-dom";
 
 const router = createBrowserRouter ([
-{
-  path: "/",
-  element: (
-    
-  )
 
-}
 
 ])
 
