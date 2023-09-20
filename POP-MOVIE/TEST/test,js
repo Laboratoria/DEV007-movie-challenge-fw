@@ -1,0 +1,11 @@
+import { useState
+
+} from "App.jsx";
+
+
+describe ("useState", () => {
+    it ("is a hook", ()=> {
+        expect (typeof useState).toBe("hook");
+    })
+    
+})
